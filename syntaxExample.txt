@@ -8,10 +8,19 @@ How to insert into a table: Subject += (23,90,'George') OR Subject += (weight=23
 
 How To select all table: Subject()
 
-How to select just a column: Subject(2)
+How to select just a column: filter(cont,Subject(2,3)
 
 OR Subject('name')
 
-How to join two tables: table_one as o * table_two as two (o.col1,two.col1)
+How to join two tables: table_one o * table_two two (o.col1,two.col1)
+
+WHERE condition
+
+Table1 t1 * Table2 t2 (t1.col1, t2.col1) [t1.col1 > 10]
+
+this is equivalent with the clasic:
+
+select t1.col, t2.col from Table1 t1 join Table2 on t1.col1 = t2.col2 where t.col1 > 10
+
 
 

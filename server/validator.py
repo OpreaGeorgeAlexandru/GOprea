@@ -39,3 +39,5 @@ class Validator:
     def table(tb):
         Validator.name(tb.table_name)
         Validator.columns(tb.columns)
+
+
