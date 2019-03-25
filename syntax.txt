@@ -1,0 +1,24 @@
+TABLE() -> select all columns from table
+
+TABLE(COLUMN1,COLUMN2,INDEX3) -> select first 3 columns
+
+TABLE operator TABLE  -> apply operator on tables
+                            -> operator can be: *   -> natural join
+                                                **  -> normal join
+                                                *>  -> left join
+                                                *<  -> right join
+                                                +   -> union
+                                                -   -> difference
+
+TABLE[CONDITION] -> select all rows where condition is true
+
+TABLE FUNCTION arg1 arg2 -> apply function with arguments arg1 arg2 on table ex: TABLE1 sort desc
+
+TABLE(FUNCTION col1)
+
+select count(*) from Subject group by id;
+
+TODO
+Subject(col1)[col1 > 0] group by id
+
+
