@@ -18,7 +18,6 @@ TABLE(FUNCTION col1)
 
 select count(*) from Subject group by id;
 
-TODO
-Subject(col1)[col1 > 0] group by id
+GROUP BY functions
 
-
+TABLE(FUNCTION1(col1), FUNCTION12(col2)) GROUP BY col1,col2

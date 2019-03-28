@@ -8,6 +8,13 @@ class Config:
     types = ['int','float','string']
     banned_symbols = []
 
+    # constants
+    ADMIN_GROUP = "ADMIN_GROUP"
+    ANONIM_GROUP = "ANONIM_GROUP"
+    
+    GROUPS = [ADMIN_GROUP,ANONIM_GROUP]
+
+
     @staticmethod
     def items():
         return Config.operators + Config.delimiters
