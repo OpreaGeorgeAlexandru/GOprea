@@ -7,7 +7,13 @@ class Config:
     key_words = ['create','table','view','as','on','int','float','string','where']
     types = ['int','float','string']
     banned_symbols = []
-
+    """
+    PID = primary key
+    UID = uniq id
+    FID = foreign key
+    NAT = not a type
+    """
+    column_types = ['pid','uid','fid','nat']
     # constants
     ADMIN_GROUP = "ADMIN_GROUP"
     ANONIM_GROUP = "ANONIM_GROUP"

@@ -1,6 +1,7 @@
 # this file will execute commands
 from validator import Validator
 from config import Config
+from state import State
 
 class Executer:
 
@@ -9,4 +10,8 @@ class Executer:
         Validator.name(table_name)
         Validator.columns(columns)
 
-        # check if table_name already exists
+        # check if TABLE table_name already exists
+        if table_name in State.get_instance().table_names:
+            raise Exception("this table already exists")
+        
+        
