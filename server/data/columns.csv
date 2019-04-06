@@ -1,0 +1,6 @@
+table_name,column_name,type
+tables,database,string
+tables,table_name,string
+tables,type,string
+testtable,table_id,int
+testtable2,table_id,int
