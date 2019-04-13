@@ -17,5 +17,5 @@ def get_column_type(column_name):
 if __name__ == '__main__':
     print(get_column_type("subject_pid"))
     print(get_column_type("subject_id"))
-    print(get_column_type("subject__ID_asd_fid"))
-    print(get_column_type("subject_PID_asd_uid"))
+    print(get_column_type("subject__id_asd_fid"))
+    print(get_column_type("subject_pid_asd_uid"))

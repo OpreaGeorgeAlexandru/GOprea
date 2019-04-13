@@ -1,4 +1,3 @@
-# validate stuff
 from config import Config
 
 class Validator:

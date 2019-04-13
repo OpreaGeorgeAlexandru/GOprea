@@ -4,3 +4,5 @@ tables,table_name,string
 tables,type,string
 testtable,table_id,int
 testtable2,table_id,int
+testtable,column1,string
+testtable2,col1,string
